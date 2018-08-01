@@ -1,0 +1,26 @@
+[
+  {"username":"9980998098","password":"user123user"},
+  {
+    "category": "Food Products (FOODP)",
+    "product":{"productName":"Basmati (BSMT)","productHsnCode":[{"hsnSearch":"100","Code":"100630"}],"productTaxGroup":[{"taxSearch":"12%","taxCode":["GST 12%"]},{"taxSearch":"18%","taxCode":["GST 18%"]}],"productUOM":[{"uomSearch":"Amp","uomCode":["Ampules"]}]},
+    "brand":{"brandName":"India","brandHsnCode":"100630","brandTaxGroup":"GST 18%","brandUOMs":["Box (51Nos)","nj dxk"]},
+    "inventory": [
+      {
+        "type":"Add Simple UOM",
+        "UOM": {"UOMName":"Ampules"},
+        "NoofUnits": "12",
+        "mrp": "250",
+        "alternateNoofUnits":"12",
+        "alternateMRP":"1000"
+      },
+      
+      {
+        "UOM":{"UOMName":"Box"},
+        "NoofUnits": "12",
+        "mrp": "250"
+      }
+      
+      
+    ]
+  }
+]
